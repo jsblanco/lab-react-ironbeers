@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-top: 100px;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -25,4 +27,14 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.beer-mugshot{
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.card> p{
+  font-size: 0.5em !important;
 }
